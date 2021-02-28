@@ -7,3 +7,10 @@
 	go build -o main *.go 
 5. Zip your *main* executable 
 6. Upload your lambda function zip to AWS
+7. Configure env variables
+
+# Environnements variables
+
+## TEAMS_WEBHOOK_URL
+
+This is the teams incomming webhook endpoint
